@@ -18,6 +18,7 @@ const catalog = () => {
 			catalogModal.style.display = "";
 		}
 	});
+
 	catalogModalItems.forEach((item) => {
 		item.addEventListener("click", () => {
 			const text = item.textContent;
